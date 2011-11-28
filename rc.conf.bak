@@ -78,16 +78,11 @@ HOSTNAME="myhost"
 # gateway=192.168.0.1
 #
 # DHCP example
-# interface=eth0
-# address=
-# netmask=
-# gateway=
-
 interface=eth0
-address=192.168.1.111
-netmask=255.255.255.0
-broadcast=192.168.1.255
-gateway=192.168.1.1
+address=
+netmask=
+gateway=
+
 
 # Setting this to "yes" will skip network shutdown.
 # This is required if your root device is on NFS.
@@ -116,4 +111,4 @@ NETWORK_PERSIST="no"
 # If something other takes care of your hardware clock (ntpd, dual-boot...)
 # you should disable 'hwclock' here.
 #
-DAEMONS=(hwclock syslog-ng network netfs crond)
+DAEMONS=(hwclock syslog-ng network netfs crond slim vbox-service)
