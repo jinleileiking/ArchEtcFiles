@@ -8,4 +8,5 @@ tmpfs		/tmp	tmpfs	nodev,nosuid	0	0
 /dev/sda6 / ext4 defaults 0 1
 /dev/sda1  /mnt/xp  ntfs-3g   defaults		  0       0
 /dev/sda2  /mnt/share  ntfs-3g   defaults		  0       0
+d_drive /mnt/win7 vboxsf defaults 0 1
 
